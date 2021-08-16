@@ -1,0 +1,25 @@
+{
+  "name": "github-repo-cards",
+  "version": "1.0.0",
+  "description": "Your GitHub profile repos in some cards.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedeperin/github-repo-cards.git"
+  },
+  "keywords": [
+    "github",
+    "cards",
+    "github-repo-cards",
+    "github-cards"
+  ],
+  "author": "fedeperin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedeperin/github-repo-cards/issues"
+  },
+  "homepage": "https://github.com/fedeperin/github-repo-cards#readme"
+}
