@@ -20,8 +20,6 @@ githubRepoCards.forEach(githubRepoCard => {
         background = githubRepoCard.dataset.background
         githubRepoCard.style.background = background
     }
-
-
 })
 
 function newCard(title, htmlUrl, desc, githubRepoCard, language, stars, forks) {
@@ -97,8 +95,6 @@ function fetchCards(user, githubRepoCard) {
             })
     
             popular.forEach(pop => {
-                console.log(pop)
-
                 githubRepoCard.innerHTML += newCard(pop.full_name, pop.html_url, pop.description, githubRepoCard, pop.language, pop.stargazers_count, pop.forks)
             })
         })

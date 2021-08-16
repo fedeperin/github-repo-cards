@@ -8,8 +8,8 @@ GitHub Repo Cards are a tool; If you link it via the CDN to your web page, you c
 First, link the CDN by pasting the following two lines at the head tag of your page.
 
 ````html
-<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.1/app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.1/style.css"></script>
+<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.2/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.2/style.css"></script>
 ````
 
 ## Usage
