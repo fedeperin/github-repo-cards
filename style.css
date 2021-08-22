@@ -48,6 +48,7 @@ section.github-repo-cards div.github-repo-card svg {
     cursor: pointer;
     fill: #8b949e;
     margin-left: 10px;
+    width: 16px;
 }
 
 section.github-repo-cards div.github-repo-card div.forks-stars-lang {
