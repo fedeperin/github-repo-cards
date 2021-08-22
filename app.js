@@ -23,9 +23,9 @@ githubRepoCards.forEach(githubRepoCard => {
 })
 
 function newCard(title, htmlUrl, desc, githubRepoCard, language, stars, forks) {
-    if(eval(githubRepoCard.dataset.targetBlank) == true) {
+    if(githubRepoCard.dataset.targetBlank == true) {
         targetBlank = 'target="_blank" rel="noopener"'
-    }else if(eval(githubRepoCard.dataset.targetBlank) == false) {
+    }else if(githubRepoCard.dataset.targetBlank == false) {
         targetBlank = ''
     }
 
