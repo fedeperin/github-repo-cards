@@ -39,7 +39,6 @@ const newCard = (title, htmlUrl, desc, githubRepoCard, language, stars, forks) =
 }
 
 const fetchCards = (user, githubRepoCard) => {
-    
     fetch(`https://api.github.com/users/${ user }/repos`)
     .then(res => res.json())
     .then(repos => {
@@ -74,7 +73,5 @@ const fetchCards = (user, githubRepoCard) => {
 githubRepoCards.forEach(githubRepoCard => {
     fetchCards(githubRepoCard.dataset.user, githubRepoCard)
 
-    if(githubRepoCard.dataset.background) {
-        githubRepoCard.style.background = githubRepoCard.dataset.background
-    }
+    githubRepoCard.style.background = githubRepoCard.dataset.background ? githubRepoCard.dataset.background : '#0d1117'
 })
