@@ -13,7 +13,7 @@ let fork = `<svg viewBox="0 0 16 16"><path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0
 const newCard = (title, htmlUrl, desc, githubRepoCard, language, stars, forks) => {
     targetBlank = githubRepoCard.dataset.targetBlank ? "target='_blank' rel='noopener'" : ""
 
-    desc = desc ? desc : ''
+    desc = desc || ''
 
     language = language ? `<p class="lang"><span class="lang-color ${ language }"></span> ${ language }</p>` : ''
 
@@ -49,6 +49,8 @@ const fetchCards = (user, githubRepoCard) => {
                     unpopular.push(repo)
                 }
             })
+
+            popular = popular.sort((a, b) => b.stargazers_count - a.stargazers_count)
     
             if(popular.length < 6) {
                 for(let i = 0; i <= 6 - popular.length; i++) {
@@ -60,9 +62,7 @@ const fetchCards = (user, githubRepoCard) => {
                 }
             }
 
-            popular = popular.sort((a, b) => {
-                return b.stargazers_count - a.stargazers_count
-            })
+            popular = popular.sort((a, b) => b.stargazers_count - a.stargazers_count)
     
             popular.forEach(pop => {
                 githubRepoCard.innerHTML += newCard(pop.full_name, pop.html_url, pop.description, githubRepoCard, pop.language, pop.stargazers_count, pop.forks)
