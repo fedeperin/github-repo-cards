@@ -1,4 +1,4 @@
-section.github-repo-cards, section.github-repo-cards * {
+github-repo-cards, github-repo-cards * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@ section.github-repo-cards, section.github-repo-cards * {
     color: #fff;
 }
 
-section.github-repo-cards {
+github-repo-cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 16px;
@@ -15,7 +15,7 @@ section.github-repo-cards {
     position: relative;
 }
 
-section.github-repo-cards div.github-repo-card {
+github-repo-cards div.github-repo-card {
     width: 100%;
     height: 100%;
     border: 1px solid #30363d;
@@ -26,37 +26,37 @@ section.github-repo-cards div.github-repo-card {
     justify-content: space-between;
 }
 
-section.github-repo-cards div.github-repo-card a {
+github-repo-cards div.github-repo-card a {
     color: #4e9fff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
 }
 
-section.github-repo-cards div.github-repo-card a:hover {
+github-repo-cards div.github-repo-card a:hover {
     text-decoration: underline;
 }
 
-section.github-repo-cards div.github-repo-card p.desc {
+github-repo-cards div.github-repo-card p.desc {
     font-size: 12px;
     margin-bottom: 16px;
     margin-top: 8px;
     color: #8B949E;
 }
 
-section.github-repo-cards div.github-repo-card svg {
+github-repo-cards div.github-repo-card svg {
     cursor: pointer;
     fill: #8b949e;
     margin-left: 10px;
     width: 16px;
 }
 
-section.github-repo-cards div.github-repo-card div.forks-stars-lang {
+github-repo-cards div.github-repo-card div.forks-stars-lang {
     display: flex;
     align-items: center;
 }
 
-section.github-repo-cards div.github-repo-card div.forks-stars-lang p.lang {
+github-repo-cards div.github-repo-card div.forks-stars-lang p.lang {
     color: #606b77;
     font-size: 14px;
     display: flex;
@@ -66,7 +66,7 @@ section.github-repo-cards div.github-repo-card div.forks-stars-lang p.lang {
     margin-right: 20px;
 }
 
-section.github-repo-cards div.github-repo-card div.forks-stars-lang span.lang-color {
+github-repo-cards div.github-repo-card div.forks-stars-lang span.lang-color {
     width: 14px;
     height: 14px;
     border-radius: 50%;
@@ -74,261 +74,261 @@ section.github-repo-cards div.github-repo-card div.forks-stars-lang span.lang-co
     left: 0;
 }
 
-section.github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks {
+github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 
-section.github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks span {
+github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks span {
     font-size: 13px;
     margin-left: 2px;
     color: #8b949e;
     pointer-events: none;
 }
     
-section.github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks:hover span {
+github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks:hover span {
     color: #4e9fff;
 }
     
-section.github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks:hover svg {
+github-repo-cards div.github-repo-card div.forks-stars-lang a.stars-forks:hover svg {
     fill: #4e9fff;
 }
 
 @media (max-width: 1850px) {
-    section.github-repo-cards {
+    github-repo-cards {
         grid-template-columns: repeat(3, 1fr);
         padding: 20px 30px;
     }
 }
 
 @media (max-width: 1240px) {
-    section.github-repo-cards {
+    github-repo-cards {
         padding: 20px;
     }
 }
 
 @media (max-width: 950px) {
-    section.github-repo-cards {
+    github-repo-cards {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px 30px;
     }
 }
 
 @media (max-width: 600px) {
-    section.github-repo-cards {
+    github-repo-cards {
         padding: 20px;
     }
 }
 
 @media (max-width: 540px) {
-    section.github-repo-cards {
+    github-repo-cards {
         grid-template-columns: 1fr;
     }
 }
 
 /* Colors */
 
-section.github-repo-cards .ABAP { background: #E8274B; }
-section.github-repo-cards .ActionScript { background: #882B0F; }
-section.github-repo-cards .Ada { background: #02f88c; }
-section.github-repo-cards .Agda { background: #315665; }
-section.github-repo-cards .AGS-Script { background: #B9D9FF; }
-section.github-repo-cards .Alloy { background: #64C800; }
-section.github-repo-cards .AMPL { background: #E6EFBB; }
-section.github-repo-cards .ANTLR { background: #9DC3FF; }
-section.github-repo-cards .API-Blueprint { background: #2ACCA8; }
-section.github-repo-cards .APL { background: #5A8164; }
-section.github-repo-cards .Arc { background: #aa2afe; }
-section.github-repo-cards .Arduino { background: #bd79d1; }
-section.github-repo-cards .ASP { background: #6a40fd; }
-section.github-repo-cards .AspectJ { background: #a957b0; }
-section.github-repo-cards .Assembly { background: #6E4C13; }
-section.github-repo-cards .ATS { background: #1ac620; }
-section.github-repo-cards .AutoHotkey { background: #6594b9; }
-section.github-repo-cards .AutoIt { background: #1C3552; }
-section.github-repo-cards .BlitzMax { background: #cd6400; }
-section.github-repo-cards .Boo { background: #d4bec1; }
-section.github-repo-cards .Brainfuck { background: #2F2530; }
-section.github-repo-cards .C-Sharp { background: #178600; }
-section.github-repo-cards .C { background: #555555; }
-section.github-repo-cards .Chapel { background: #8dc63f; }
-section.github-repo-cards .Cirru { background: #ccccff; }
-section.github-repo-cards .Clarion { background: #db901e; }
-section.github-repo-cards .Clean { background: #3F85AF; }
-section.github-repo-cards .Click { background: #E4E6F3; }
-section.github-repo-cards .Clojure { background: #db5855; }
-section.github-repo-cards .CoffeeScript { background: #244776; }
-section.github-repo-cards .ColdFusion-CFC { background: #ed2cd6; }
-section.github-repo-cards .ColdFusion { background: #ed2cd6; }
-section.github-repo-cards .Common-Lisp { background: #3fb68b; }
-section.github-repo-cards .Component-Pascal { background: #b0ce4e; }
-section.github-repo-cards .cpp { background: #f34b7d; }
-section.github-repo-cards .Crystal { background: #776791; }
-section.github-repo-cards .CSS { background: #563d7c; }
-section.github-repo-cards .C { background: #563d7c; }
-section.github-repo-cards .SCSS { background: #563d7c; }
-section.github-repo-cards .SASS { background: #563d7c; }
-section.github-repo-cards .D { background: #ba595e; }
-section.github-repo-cards .Dart { background: #00B4AB; }
-section.github-repo-cards .Diff { background: #88dddd; }
-section.github-repo-cards .DM { background: #447265; }
-section.github-repo-cards .Dogescript { background: #cca760; }
-section.github-repo-cards .Dylan { background: #6c616e; }
-section.github-repo-cards .E { background: #ccce35; }
-section.github-repo-cards .Eagle { background: #814C05; }
-section.github-repo-cards .eC { background: #913960; }
-section.github-repo-cards .ECL { background: #8a1267; }
-section.github-repo-cards .edn { background: #db5855; }
-section.github-repo-cards .Eiffel { background: #946d57; }
-section.github-repo-cards .Elixir { background: #6e4a7e; }
-section.github-repo-cards .Elm { background: #60B5CC; }
-section.github-repo-cards .Emacs-Lisp { background: #c065db; }
-section.github-repo-cards .EmberScript { background: #FFF4F3; }
-section.github-repo-cards .Erlang { background: #B83998; }
-section.github-repo-cards .F-Sharp { background: #b845fc; }
-section.github-repo-cards .Factor { background: #636746; }
-section.github-repo-cards .Fancy { background: #7b9db4; }
-section.github-repo-cards .Fantom { background: #dbded5; }
-section.github-repo-cards .FLUX { background: #88ccff; }
-section.github-repo-cards .Forth { background: #341708; }
-section.github-repo-cards .FORTRAN { background: #4d41b1; }
-section.github-repo-cards .FreeMarker { background: #0050b2; }
-section.github-repo-cards .Frege { background: #00cafe; }
-section.github-repo-cards .Game-Maker-Language { background: #8fb200; }
-section.github-repo-cards .Glyph { background: #e4cc98; }
-section.github-repo-cards .Gnuplot { background: #f0a9f0; }
-section.github-repo-cards .Go { background: #375eab; }
-section.github-repo-cards .Golo { background: #88562A; }
-section.github-repo-cards .Gosu { background: #82937f; }
-section.github-repo-cards .Grammatical-Framework { background: #79aa7a; }
-section.github-repo-cards .Groovy { background: #e69f56; }
-section.github-repo-cards .Handlebars { background: #01a9d6; }
-section.github-repo-cards .Harbour { background: #0e60e3; }
-section.github-repo-cards .Haskell { background: #29b544; }
-section.github-repo-cards .Haxe { background: #df7900; }
-section.github-repo-cards .HTML { background: #e44b23; }
-section.github-repo-cards .Hy { background: #7790B2; }
-section.github-repo-cards .IDL { background: #a3522f; }
-section.github-repo-cards .Io { background: #a9188d; }
-section.github-repo-cards .Ioke { background: #078193; }
-section.github-repo-cards .Isabelle { background: #FEFE00; }
-section.github-repo-cards .J { background: #9EEDFF; }
-section.github-repo-cards .Java { background: #b07219; }
-section.github-repo-cards .JavaScript { background: #f1e05a; }
-section.github-repo-cards .JFlex { background: #DBCA00; }
-section.github-repo-cards .JSONiq { background: #40d47e; }
-section.github-repo-cards .Julia { background: #a270ba; }
-section.github-repo-cards .Jupyter-Notebook { background: #DA5B0B; }
-section.github-repo-cards .Kotlin { background: #F18E33; }
-section.github-repo-cards .KRL { background: #28431f; }
-section.github-repo-cards .Lasso { background: #999999; }
-section.github-repo-cards .Latte { background: #A8FF97; }
-section.github-repo-cards .Lex { background: #DBCA00; }
-section.github-repo-cards .LFE { background: #004200; }
-section.github-repo-cards .LiveScript { background: #499886; }
-section.github-repo-cards .LOLCODE { background: #cc9900; }
-section.github-repo-cards .LookML { background: #652B81; }
-section.github-repo-cards .LSL { background: #3d9970; }
-section.github-repo-cards .Lua { background: #000080; }
-section.github-repo-cards .Makefile { background: #427819; }
-section.github-repo-cards .Mask { background: #f97732; }
-section.github-repo-cards .Matlab { background: #bb92ac; }
-section.github-repo-cards .Max { background: #c4a79c; }
-section.github-repo-cards .MAXScript { background: #00a6a6; }
-section.github-repo-cards .Mercury { background: #ff2b2b; }
-section.github-repo-cards .Metal { background: #8f14e9; }
-section.github-repo-cards .Mirah { background: #c7a938; }
-section.github-repo-cards .MTML { background: #b7e1f4; }
-section.github-repo-cards .NCL { background: #28431f; }
-section.github-repo-cards .Nemerle { background: #3d3c6e; }
-section.github-repo-cards .nesC { background: #94B0C7; }
-section.github-repo-cards .NetLinx { background: #0aa0ff; }
-section.github-repo-cards .NetLinx-ERB { background: #747faa; }
-section.github-repo-cards .NetLogo { background: #ff6375; }
-section.github-repo-cards .NewLisp { background: #87AED7; }
-section.github-repo-cards .Nimrod { background: #37775b; }
-section.github-repo-cards .Nit { background: #009917; }
-section.github-repo-cards .Nix { background: #7e7eff; }
-section.github-repo-cards .Nu { background: #c9df40; }
-section.github-repo-cards .Objective-C { background: #438eff; }
-section.github-repo-cards .Objective-Cpp { background: #6866fb; }
-section.github-repo-cards .Objective-J { background: #ff0c5a; }
-section.github-repo-cards .OCaml { background: #3be133; }
-section.github-repo-cards .Omgrofl { background: #cabbff; }
-section.github-repo-cards .ooc { background: #b0b77e; }
-section.github-repo-cards .Opal { background: #f7ede0; }
-section.github-repo-cards .Oxygene { background: #cdd0e3; }
-section.github-repo-cards .Oz { background: #fab738; }
-section.github-repo-cards .Pan { background: #cc0000; }
-section.github-repo-cards .Papyrus { background: #6600cc; }
-section.github-repo-cards .Parrot { background: #f3ca0a; }
-section.github-repo-cards .Pascal { background: #b0ce4e; }
-section.github-repo-cards .PAWN { background: #dbb284; }
-section.github-repo-cards .Perl { background: #0298c3; }
-section.github-repo-cards .Perl6 { background: #0000fb; }
-section.github-repo-cards .PHP { background: #4F5D95; }
-section.github-repo-cards .PigLatin { background: #fcd7de; }
-section.github-repo-cards .Pike { background: #005390; }
-section.github-repo-cards .PLSQL { background: #dad8d8; }
-section.github-repo-cards .PogoScript { background: #d80074; }
-section.github-repo-cards .Processing { background: #0096D8; }
-section.github-repo-cards .Prolog { background: #74283c; }
-section.github-repo-cards .Propeller-Spin { background: #7fa2a7; }
-section.github-repo-cards .Puppet { background: #302B6D; }
-section.github-repo-cards .Pure-Data { background: #91de79; }
-section.github-repo-cards .PureBasic { background: #5a6986; }
-section.github-repo-cards .PureScript { background: #1D222D; }
-section.github-repo-cards .Python { background: #3572A5; }
-section.github-repo-cards .QML { background: #44a51c; }
-section.github-repo-cards .R { background: #198ce7; }
-section.github-repo-cards .Racket { background: #22228f; }
-section.github-repo-cards .Ragel-in-Ruby-Host { background: #9d5200; }
-section.github-repo-cards .RAML { background: #77d9fb; }
-section.github-repo-cards .Rebol { background: #358a5b; }
-section.github-repo-cards .Red { background: #ee0000; }
-section.github-repo-cards .Ren-Py { background: #ff7f7f; }
-section.github-repo-cards .Rouge { background: #cc0088; }
-section.github-repo-cards .Ruby { background: #701516; }
-section.github-repo-cards .Rust { background: #dea584; }
-section.github-repo-cards .SaltStack { background: #646464; }
-section.github-repo-cards .SAS { background: #B34936; }
-section.github-repo-cards .Scala { background: #DC322F; }
-section.github-repo-cards .Scheme { background: #1e4aec; }
-section.github-repo-cards .Self { background: #0579aa; }
-section.github-repo-cards .Shell { background: #89e051; }
-section.github-repo-cards .Shen { background: #120F14; }
-section.github-repo-cards .Slash { background: #007eff; }
-section.github-repo-cards .Slim { background: #ff8f77; }
-section.github-repo-cards .Smalltalk { background: #596706; }
-section.github-repo-cards .SourcePawn { background: #5c7611; }
-section.github-repo-cards .SQF { background: #3F3F3F; }
-section.github-repo-cards .Squirrel { background: #800000; }
-section.github-repo-cards .Stan { background: #b2011d; }
-section.github-repo-cards .Standard-ML { background: #dc566d; }
-section.github-repo-cards .SuperCollider { background: #46390b; }
-section.github-repo-cards .Svelte { background: #FF3E00; }
-section.github-repo-cards .Swift { background: #ffac45; }
-section.github-repo-cards .SystemVerilog { background: #DAE1C2; }
-section.github-repo-cards .Tcl { background: #e4cc98; }
-section.github-repo-cards .TeX { background: #3D6117; }
-section.github-repo-cards .Turing { background: #45f715; }
-section.github-repo-cards .TypeScript { background: #2b7489; }
-section.github-repo-cards .Unified-Parallel-C { background: #4e3617; }
-section.github-repo-cards .Unity3D-Asset { background: #ab69a1; }
-section.github-repo-cards .UnrealScript { background: #a54c4d; }
-section.github-repo-cards .Vala { background: #fbe5cd; }
-section.github-repo-cards .Verilog { background: #b2b7f8; }
-section.github-repo-cards .VHDL { background: #adb2cb; }
-section.github-repo-cards .VimL { background: #199f4b; }
-section.github-repo-cards .Visual-Basic { background: #945db7; }
-section.github-repo-cards .Volt { background: #1F1F1F; }
-section.github-repo-cards .Vue { background: #2c3e50; }
-section.github-repo-cards .Web-Ontology-Language { background: #9cc9dd; }
-section.github-repo-cards .wisp { background: #7582D1; }
-section.github-repo-cards .X10 { background: #4B6BEF; }
-section.github-repo-cards .xBase { background: #403a40; }
-section.github-repo-cards .XC { background: #99DA07; }
-section.github-repo-cards .XQuery { background: #5232e7; }
-section.github-repo-cards .Zephir { background: #118f9e; }
+github-repo-cards .ABAP { background: #E8274B; }
+github-repo-cards .ActionScript { background: #882B0F; }
+github-repo-cards .Ada { background: #02f88c; }
+github-repo-cards .Agda { background: #315665; }
+github-repo-cards .AGS-Script { background: #B9D9FF; }
+github-repo-cards .Alloy { background: #64C800; }
+github-repo-cards .AMPL { background: #E6EFBB; }
+github-repo-cards .ANTLR { background: #9DC3FF; }
+github-repo-cards .API-Blueprint { background: #2ACCA8; }
+github-repo-cards .APL { background: #5A8164; }
+github-repo-cards .Arc { background: #aa2afe; }
+github-repo-cards .Arduino { background: #bd79d1; }
+github-repo-cards .ASP { background: #6a40fd; }
+github-repo-cards .AspectJ { background: #a957b0; }
+github-repo-cards .Assembly { background: #6E4C13; }
+github-repo-cards .ATS { background: #1ac620; }
+github-repo-cards .AutoHotkey { background: #6594b9; }
+github-repo-cards .AutoIt { background: #1C3552; }
+github-repo-cards .BlitzMax { background: #cd6400; }
+github-repo-cards .Boo { background: #d4bec1; }
+github-repo-cards .Brainfuck { background: #2F2530; }
+github-repo-cards .C-Sharp { background: #178600; }
+github-repo-cards .C { background: #555555; }
+github-repo-cards .Chapel { background: #8dc63f; }
+github-repo-cards .Cirru { background: #ccccff; }
+github-repo-cards .Clarion { background: #db901e; }
+github-repo-cards .Clean { background: #3F85AF; }
+github-repo-cards .Click { background: #E4E6F3; }
+github-repo-cards .Clojure { background: #db5855; }
+github-repo-cards .CoffeeScript { background: #244776; }
+github-repo-cards .ColdFusion-CFC { background: #ed2cd6; }
+github-repo-cards .ColdFusion { background: #ed2cd6; }
+github-repo-cards .Common-Lisp { background: #3fb68b; }
+github-repo-cards .Component-Pascal { background: #b0ce4e; }
+github-repo-cards .cpp { background: #f34b7d; }
+github-repo-cards .Crystal { background: #776791; }
+github-repo-cards .CSS { background: #563d7c; }
+github-repo-cards .C { background: #563d7c; }
+github-repo-cards .SCSS { background: #563d7c; }
+github-repo-cards .SASS { background: #563d7c; }
+github-repo-cards .D { background: #ba595e; }
+github-repo-cards .Dart { background: #00B4AB; }
+github-repo-cards .Diff { background: #88dddd; }
+github-repo-cards .DM { background: #447265; }
+github-repo-cards .Dogescript { background: #cca760; }
+github-repo-cards .Dylan { background: #6c616e; }
+github-repo-cards .E { background: #ccce35; }
+github-repo-cards .Eagle { background: #814C05; }
+github-repo-cards .eC { background: #913960; }
+github-repo-cards .ECL { background: #8a1267; }
+github-repo-cards .edn { background: #db5855; }
+github-repo-cards .Eiffel { background: #946d57; }
+github-repo-cards .Elixir { background: #6e4a7e; }
+github-repo-cards .Elm { background: #60B5CC; }
+github-repo-cards .Emacs-Lisp { background: #c065db; }
+github-repo-cards .EmberScript { background: #FFF4F3; }
+github-repo-cards .Erlang { background: #B83998; }
+github-repo-cards .F-Sharp { background: #b845fc; }
+github-repo-cards .Factor { background: #636746; }
+github-repo-cards .Fancy { background: #7b9db4; }
+github-repo-cards .Fantom { background: #dbded5; }
+github-repo-cards .FLUX { background: #88ccff; }
+github-repo-cards .Forth { background: #341708; }
+github-repo-cards .FORTRAN { background: #4d41b1; }
+github-repo-cards .FreeMarker { background: #0050b2; }
+github-repo-cards .Frege { background: #00cafe; }
+github-repo-cards .Game-Maker-Language { background: #8fb200; }
+github-repo-cards .Glyph { background: #e4cc98; }
+github-repo-cards .Gnuplot { background: #f0a9f0; }
+github-repo-cards .Go { background: #375eab; }
+github-repo-cards .Golo { background: #88562A; }
+github-repo-cards .Gosu { background: #82937f; }
+github-repo-cards .Grammatical-Framework { background: #79aa7a; }
+github-repo-cards .Groovy { background: #e69f56; }
+github-repo-cards .Handlebars { background: #01a9d6; }
+github-repo-cards .Harbour { background: #0e60e3; }
+github-repo-cards .Haskell { background: #29b544; }
+github-repo-cards .Haxe { background: #df7900; }
+github-repo-cards .HTML { background: #e44b23; }
+github-repo-cards .Hy { background: #7790B2; }
+github-repo-cards .IDL { background: #a3522f; }
+github-repo-cards .Io { background: #a9188d; }
+github-repo-cards .Ioke { background: #078193; }
+github-repo-cards .Isabelle { background: #FEFE00; }
+github-repo-cards .J { background: #9EEDFF; }
+github-repo-cards .Java { background: #b07219; }
+github-repo-cards .JavaScript { background: #f1e05a; }
+github-repo-cards .JFlex { background: #DBCA00; }
+github-repo-cards .JSONiq { background: #40d47e; }
+github-repo-cards .Julia { background: #a270ba; }
+github-repo-cards .Jupyter-Notebook { background: #DA5B0B; }
+github-repo-cards .Kotlin { background: #F18E33; }
+github-repo-cards .KRL { background: #28431f; }
+github-repo-cards .Lasso { background: #999999; }
+github-repo-cards .Latte { background: #A8FF97; }
+github-repo-cards .Lex { background: #DBCA00; }
+github-repo-cards .LFE { background: #004200; }
+github-repo-cards .LiveScript { background: #499886; }
+github-repo-cards .LOLCODE { background: #cc9900; }
+github-repo-cards .LookML { background: #652B81; }
+github-repo-cards .LSL { background: #3d9970; }
+github-repo-cards .Lua { background: #000080; }
+github-repo-cards .Makefile { background: #427819; }
+github-repo-cards .Mask { background: #f97732; }
+github-repo-cards .Matlab { background: #bb92ac; }
+github-repo-cards .Max { background: #c4a79c; }
+github-repo-cards .MAXScript { background: #00a6a6; }
+github-repo-cards .Mercury { background: #ff2b2b; }
+github-repo-cards .Metal { background: #8f14e9; }
+github-repo-cards .Mirah { background: #c7a938; }
+github-repo-cards .MTML { background: #b7e1f4; }
+github-repo-cards .NCL { background: #28431f; }
+github-repo-cards .Nemerle { background: #3d3c6e; }
+github-repo-cards .nesC { background: #94B0C7; }
+github-repo-cards .NetLinx { background: #0aa0ff; }
+github-repo-cards .NetLinx-ERB { background: #747faa; }
+github-repo-cards .NetLogo { background: #ff6375; }
+github-repo-cards .NewLisp { background: #87AED7; }
+github-repo-cards .Nimrod { background: #37775b; }
+github-repo-cards .Nit { background: #009917; }
+github-repo-cards .Nix { background: #7e7eff; }
+github-repo-cards .Nu { background: #c9df40; }
+github-repo-cards .Objective-C { background: #438eff; }
+github-repo-cards .Objective-Cpp { background: #6866fb; }
+github-repo-cards .Objective-J { background: #ff0c5a; }
+github-repo-cards .OCaml { background: #3be133; }
+github-repo-cards .Omgrofl { background: #cabbff; }
+github-repo-cards .ooc { background: #b0b77e; }
+github-repo-cards .Opal { background: #f7ede0; }
+github-repo-cards .Oxygene { background: #cdd0e3; }
+github-repo-cards .Oz { background: #fab738; }
+github-repo-cards .Pan { background: #cc0000; }
+github-repo-cards .Papyrus { background: #6600cc; }
+github-repo-cards .Parrot { background: #f3ca0a; }
+github-repo-cards .Pascal { background: #b0ce4e; }
+github-repo-cards .PAWN { background: #dbb284; }
+github-repo-cards .Perl { background: #0298c3; }
+github-repo-cards .Perl6 { background: #0000fb; }
+github-repo-cards .PHP { background: #4F5D95; }
+github-repo-cards .PigLatin { background: #fcd7de; }
+github-repo-cards .Pike { background: #005390; }
+github-repo-cards .PLSQL { background: #dad8d8; }
+github-repo-cards .PogoScript { background: #d80074; }
+github-repo-cards .Processing { background: #0096D8; }
+github-repo-cards .Prolog { background: #74283c; }
+github-repo-cards .Propeller-Spin { background: #7fa2a7; }
+github-repo-cards .Puppet { background: #302B6D; }
+github-repo-cards .Pure-Data { background: #91de79; }
+github-repo-cards .PureBasic { background: #5a6986; }
+github-repo-cards .PureScript { background: #1D222D; }
+github-repo-cards .Python { background: #3572A5; }
+github-repo-cards .QML { background: #44a51c; }
+github-repo-cards .R { background: #198ce7; }
+github-repo-cards .Racket { background: #22228f; }
+github-repo-cards .Ragel-in-Ruby-Host { background: #9d5200; }
+github-repo-cards .RAML { background: #77d9fb; }
+github-repo-cards .Rebol { background: #358a5b; }
+github-repo-cards .Red { background: #ee0000; }
+github-repo-cards .Ren-Py { background: #ff7f7f; }
+github-repo-cards .Rouge { background: #cc0088; }
+github-repo-cards .Ruby { background: #701516; }
+github-repo-cards .Rust { background: #dea584; }
+github-repo-cards .SaltStack { background: #646464; }
+github-repo-cards .SAS { background: #B34936; }
+github-repo-cards .Scala { background: #DC322F; }
+github-repo-cards .Scheme { background: #1e4aec; }
+github-repo-cards .Self { background: #0579aa; }
+github-repo-cards .Shell { background: #89e051; }
+github-repo-cards .Shen { background: #120F14; }
+github-repo-cards .Slash { background: #007eff; }
+github-repo-cards .Slim { background: #ff8f77; }
+github-repo-cards .Smalltalk { background: #596706; }
+github-repo-cards .SourcePawn { background: #5c7611; }
+github-repo-cards .SQF { background: #3F3F3F; }
+github-repo-cards .Squirrel { background: #800000; }
+github-repo-cards .Stan { background: #b2011d; }
+github-repo-cards .Standard-ML { background: #dc566d; }
+github-repo-cards .SuperCollider { background: #46390b; }
+github-repo-cards .Svelte { background: #FF3E00; }
+github-repo-cards .Swift { background: #ffac45; }
+github-repo-cards .SystemVerilog { background: #DAE1C2; }
+github-repo-cards .Tcl { background: #e4cc98; }
+github-repo-cards .TeX { background: #3D6117; }
+github-repo-cards .Turing { background: #45f715; }
+github-repo-cards .TypeScript { background: #2b7489; }
+github-repo-cards .Unified-Parallel-C { background: #4e3617; }
+github-repo-cards .Unity3D-Asset { background: #ab69a1; }
+github-repo-cards .UnrealScript { background: #a54c4d; }
+github-repo-cards .Vala { background: #fbe5cd; }
+github-repo-cards .Verilog { background: #b2b7f8; }
+github-repo-cards .VHDL { background: #adb2cb; }
+github-repo-cards .VimL { background: #199f4b; }
+github-repo-cards .Visual-Basic { background: #945db7; }
+github-repo-cards .Volt { background: #1F1F1F; }
+github-repo-cards .Vue { background: #2c3e50; }
+github-repo-cards .Web-Ontology-Language { background: #9cc9dd; }
+github-repo-cards .wisp { background: #7582D1; }
+github-repo-cards .X10 { background: #4B6BEF; }
+github-repo-cards .xBase { background: #403a40; }
+github-repo-cards .XC { background: #99DA07; }
+github-repo-cards .XQuery { background: #5232e7; }
+github-repo-cards .Zephir { background: #118f9e; }

@@ -1,6 +1,6 @@
 {
   "name": "github-repo-cards",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "description": "Your GitHub profile repos in some cards.",
   "main": "app.js",
   "scripts": {
