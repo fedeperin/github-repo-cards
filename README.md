@@ -9,7 +9,7 @@ Github Repo Cards, the Web Component to show your Github repository cards.
 ## CDN
 First of all, import the web component pasting the following script tag at the head tag of your page.  
 ````html
-<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.10/app.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/github-repo-cards@2.0.0/app.js" defer></script>
 ````
 
 ## Usage
