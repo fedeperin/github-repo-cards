@@ -1,6 +1,6 @@
 # Github Repo Cards
 > [!IMPORTANT]  
-> Github Repo Cards is now on it's version 2, it had many breaking changes since version 1. If you want to continue using the old version, please check the [1.0.10 version docs](https://www.npmjs.com/package/github-repo-cards/v/1.0.10)  
+> Github Repo Cards is now on version 2, it has many breaking changes since version 1. If you want to continue using the old version, please check the [1.0.10 version docs](https://www.npmjs.com/package/github-repo-cards/v/1.0.10)  
 
 Github Repo Cards, the Web Component to show your Github repository cards.
 
